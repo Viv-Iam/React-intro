@@ -12,3 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#body {
+  color: blue;
+  background: yellow;
+}
+
+#body1 {
+  color: yellow;
+  background: blue;
+}
+
