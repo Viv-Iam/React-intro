@@ -19,6 +19,9 @@ function App() {
         question: "Why can’t a bike stand on its own?",
         punchline: "It’s two tired"     
     }} />
+    <Joke text = {{
+        punchline: "It’s two tired"     
+    }} />
   {/* <Footer /> */}
   </div>
 )
