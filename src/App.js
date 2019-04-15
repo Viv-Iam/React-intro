@@ -1,19 +1,25 @@
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 import React from 'react'
-// import MyList from './Components/MyList'
-// import MyInfo from './Components/MyInfo'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+// import Header from './Components/Header'
+// import Footer from './Components/Footer'
 import MainContent from './Components/MainContent'
+import Joke from './Components/Joke'
+import './App.css'
 
 function App() {
   return (
-  <div>
-  <Header />
+  <div  className="contactList">
+  {/* <Header /> */}
   <MainContent />
-  <Footer />
+  <Joke text = {{
+         question: "What did Jay-Z call his girlfriend before they got married?",
+         punchline: "Feyoncé"
+     }}
+  />
+  <Joke text = {{
+        question: "Why can’t a bike stand on its own?",
+        punchline: "It’s two tired"     
+    }} />
+  {/* <Footer /> */}
   </div>
 )
 }
